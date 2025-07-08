@@ -138,7 +138,7 @@
   line-height: 52px;
 }
 
-.recipes_subtitle {
+.recipes__subtitle {
   max-width: 438px;
   margin: 0 0 0 80px;
   padding-top: 24px;
@@ -164,7 +164,7 @@
   height: 273px;
 }
 
-.recipes__inframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   border: 0;
@@ -182,6 +182,6 @@
   margin-top: 24px;
 }
 
-.recipes__video-captio_text {
+.recipes__video-caption_text {
   margin: 0;
 }
