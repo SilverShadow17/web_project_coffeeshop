@@ -302,5 +302,5 @@
 }
 
 .form__checkbox:checked::after {
-  content: url(../images/check.svg);
+  content: url("../images/check.svg");
 }
