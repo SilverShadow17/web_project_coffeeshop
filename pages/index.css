@@ -198,8 +198,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
 }
 
 .reservation__title {
@@ -251,6 +249,9 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+}
+
+.form__input:focus {
   border: 1px solid #838383;
   outline: none;
 }
@@ -268,6 +269,9 @@
   line-height: 20px;
   background-color: #2f80ed;
   color: #fff;
+}
+
+.form__button:focus {
   border: 1px solid #838383;
   outline: none;
 }
@@ -280,7 +284,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  column-gap: 12px;
 }
 
 .form__checkbox {
