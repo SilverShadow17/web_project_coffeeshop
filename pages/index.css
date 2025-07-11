@@ -217,7 +217,6 @@
 .form {
   max-width: 385px;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .form__fieldset {
